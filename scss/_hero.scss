@@ -1,0 +1,32 @@
+.hero {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-size: 32px;
+        text-align: center;
+        margin: 0;
+    }
+
+    &__text {
+        font-size: 18px;
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__img {
+        width: 400px;
+        height: 400px;
+    }
+}

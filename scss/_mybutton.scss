@@ -1,0 +1,45 @@
+.mybutton {
+    background-color: inherit;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 34px;
+    border-radius: 10px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.mybutton::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: inherit;
+    border-radius: 4px;
+    z-index: -2;
+}
+
+.mybutton::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.mybutton:hover {
+    color: white;
+}
+
+.mybutton:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+.My {
+    &__project-shortly {
+        margin-top: 35px;
+        padding: 0 150px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+        &-box {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+
+            &-title {
+                text-align: center;
+                font-size: 32px;
+                margin: 0;
+            }
+
+            &-text {
+                font-size: 18px;
+                max-width: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &-img {
+                width: 250px;
+                height: 285px;
+            }
+        }
+    }
+}

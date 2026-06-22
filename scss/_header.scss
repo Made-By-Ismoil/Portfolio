@@ -1,0 +1,26 @@
+.header {
+    &__navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 150px;
+    }
+
+    &__title {
+        font-size: 32px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+    &__list-text {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+}

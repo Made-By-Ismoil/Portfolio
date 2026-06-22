@@ -1,0 +1,32 @@
+.My__project-trafalgar {
+    margin-top: 35px;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    &-box {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+
+        &-title {
+            text-align: center;
+            font-size: 32px;
+            margin: 0;
+        }
+
+        &-text {
+            font-size: 18px;
+            max-width: 400px;
+            text-align: start;
+        }
+
+        &-img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
