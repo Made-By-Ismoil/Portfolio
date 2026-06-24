@@ -1,0 +1,22 @@
+.My {
+
+    &__other-project {
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &__other-project-box {
+        gap: 15px;
+    }
+
+    &__other-projects-titles {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    &__other-project-box-text {
+        font-size: 18px;
+    }
+}
