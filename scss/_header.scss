@@ -24,3 +24,30 @@
         color: black;
     }
 }
+@media(max-width: 767px) {
+    .header {
+        &__navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        &__list {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+
+        &__list-text {
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

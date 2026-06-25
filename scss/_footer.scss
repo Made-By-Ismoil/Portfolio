@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    &__box {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    &__box-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__box-text {
+        text-align: start;
+        font-size: 18px;
+    }
+
+    &__box-img-tg {
+        width: 50px;
+        height: 50px;
+    }
+
+    &__box-img-gmail {
+        width: 50px;
+        height: 50px;
+    }
+}
