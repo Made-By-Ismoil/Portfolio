@@ -29,6 +29,12 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .My__project-apple {
+        padding: 0 50px;
+    }
+}
+
 @media(max-width: 767px) {
     .My__project-apple {
         padding: 0 20px;

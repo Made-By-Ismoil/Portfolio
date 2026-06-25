@@ -35,6 +35,14 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .My {
+        &__project-shortly {
+            padding: 0 50px;
+        }
+    }
+}
+
 @media(max-width: 767px) {
     .My {
         &__project-shortly {

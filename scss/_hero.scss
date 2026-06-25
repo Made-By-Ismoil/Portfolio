@@ -26,6 +26,28 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 30px;
+    gap: 20px;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-size: 18px;
+      max-width: 500px;
+    }
+
+    &__img {
+      width: 390px;
+      height: 400px;
+      padding: 35px 0px;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .hero {
     padding: 0 20px;

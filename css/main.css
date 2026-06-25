@@ -20,6 +20,29 @@
   color: black;
 }
 
+@media (max-width: 1024px) {
+  .header__navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+  }
+  .header__title {
+    font-size: 32px;
+  }
+  .header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+  .header__list-text {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+  }
+}
 @media (max-width: 767px) {
   .header__navbar {
     display: flex;
@@ -66,6 +89,24 @@
   height: 400px;
 }
 
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 30px;
+    gap: 20px;
+  }
+  .hero__title {
+    font-size: 32px;
+  }
+  .hero__text {
+    font-size: 18px;
+    max-width: 500px;
+  }
+  .hero__img {
+    width: 390px;
+    height: 400px;
+    padding: 35px 0px;
+  }
+}
 @media (max-width: 767px) {
   .hero {
     padding: 0 20px;
@@ -111,6 +152,11 @@
   height: 260px;
 }
 
+@media (max-width: 1024px) {
+  .My__project-apple {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 767px) {
   .My__project-apple {
     padding: 0 20px;
@@ -170,6 +216,11 @@
   height: 250px;
 }
 
+@media (max-width: 1024px) {
+  .My__project-scoot {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 767px) {
   .My__project-scoot {
     margin-top: 35px;
@@ -230,6 +281,11 @@
   height: 250px;
 }
 
+@media (max-width: 1024px) {
+  .My__project-trafalgar {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 767px) {
   .My__project-trafalgar {
     margin-top: 35px;
@@ -290,6 +346,11 @@
   height: 250px;
 }
 
+@media (max-width: 1024px) {
+  .My__project-polar {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 767px) {
   .My__project-polar {
     margin-top: 35px;
@@ -352,6 +413,11 @@
   height: 285px;
 }
 
+@media (max-width: 1024px) {
+  .My__project-shortly {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 767px) {
   .My__project-shortly {
     margin-top: 35px;
@@ -400,11 +466,21 @@
   font-size: 18px;
 }
 
+@media (max-width: 1024px) {
+  .My__other-project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 120px;
+    text-align: center;
+  }
+}
 @media (max-width: 767px) {
   .My__other-project {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding: 0 15px;
   }
   .My__other-project-box {
     gap: 15px;

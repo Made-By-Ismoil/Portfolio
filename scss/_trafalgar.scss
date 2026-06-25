@@ -31,6 +31,13 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .My__project-trafalgar {
+        padding: 0 50px;
+
+    }
+}
+
 @media(max-width: 767px) {
     .My__project-trafalgar {
         margin-top: 35px;
